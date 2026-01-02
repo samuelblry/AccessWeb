@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KNIT 'THE LAST DUEL'</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="topBanner">
+        <div class="scrollingText">
+            <span>Retrouve le nouveau drop dès maintenant !</span> • <span>Edition Limitée !</span> • 
+        </div>
+        <div class="scrollingText">
+            <span>Retrouve le nouveau drop dès maintenant !</span> • <span>Edition Limitée !</span> • 
+        </div>
+        <div class="scrollingText">
+            <span>Retrouve le nouveau drop dès maintenant !</span> • <span>Edition Limitée !</span> • 
+        </div>
+    </div>
+
+    <nav id="navBar" class="navBar">
+        <div class="navBarPrincipal" id="navBarPrincipal">
+            <div class="navContent">
+
+            <div class="desktopLinks">
+                <a href="./error.html" id="btnBoutiqueNav">Boutique</a>
+                <a href="./error.html" id="btnBrandNav">Collections</a>
+                <a href="./contact.html" id="btnContactNav">Contact</a>
+            </div>
+
+            <div class="mainLogo">
+                <a href="./index.html">
+                    RESIDUE_<span class="tm">®</span>
+                </a>
+            </div>
+
+            <div class="rightIcons">
+                <a href="./apropos.html" id="btnAPropos">A propos</a>
+                <a href="./error.html" id="btnCompte">Compte</a>
+            </div>
+        </div>
+        </div>
+        <div class="megaMenuShop" id="megaMenuShop">
+            <div class="principalCategory">
+                <a href="./error.html"><strong>Tout les articles</strong></a>
+                <a href="./error.html"><strong>Nouveautés</strong></a>
+                <a href="./error.html"><strong>Meilleurs ventes</strong></a>
+            </div>
+            <div class="clothingCategory">
+                <a href="./error.html"><strong>Voir tout</strong></a>
+                <a href="./error.html">Knitwear</a>
+                <a href="./error.html">Hoodies</a>
+                <a href="./error.html">T-shirts</a>
+                <a href="./error.html">Pantalons</a>
+            </div>
+            <div class="accessoryCategory">
+                <a href="./error.html"><strong>Voir tout</strong></a>
+                <a href="./error.html">Ceinture</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN PRODUCT SECTION -->
+    
+    <section class="articlePresentation">
+        <div class="articlePresentationImg">
+            <button class="previousImgArticlePresentation" onclick="previousImgCarousel()" aria-label="Image précédente">&lt;</button>
+            <img id="ImgCarousel" src="./img/knit.jpg" alt="Knit 'The last duel'">
+            <button class="nextImgArticlePresentation" onclick="nextImgCarousel()" aria-label="Image suivante">&gt;</button>
+        </div>
+
+        <div class="articlePresentationDescription">
+            <h2 class="titleArticlePresentation">THE LAST DUEL <br> KNIT</h2>
+            <p class="priceArticlePresentation"><strong>99,95€</strong></p>
+
+            <div class="sizeArticlePresentation">
+                <button class="sizeArticle" id="sizeArticleS" onclick="selectSize(this)" aria-pressed="false">S</button>
+                <button class="sizeArticle" id="sizeArticleM" onclick="selectSize(this)" aria-pressed="false">M</button>
+                <button class="sizeArticle" id="sizeArticleL" onclick="selectSize(this)" aria-pressed="false">L</button>
+                <button class="sizeArticle" id="sizeArticleXL" onclick="selectSize(this)" aria-pressed="false">XL</button>
+            </div>
+
+            <a href="./error.html" class="buyArticlePresentation">Acheter</a>
+
+            <p class="descriptionArticlePresentation">Axel mesure 184 cm et porte une taille M.</p>
+
+            <div class="detailArticlePresentation" id="definitions">
+                <h3>Détails du produit :</h3>
+                <dl>
+                    <dt>Composition</dt>
+                    <dd>100 % coton</dd>
+
+                    <dt>Texture</dt>
+                    <dd>Matières épaisses</dd>
+
+                    <dt>Coupe</dt>
+                    <dd>Oversize et carrée</dd>
+
+                    <dt>Finition</dt>
+                    <dd>Logo brodé</dd>
+
+                    <dt>Couleur principale</dt>
+                    <dd>Noir</dd>
+
+                    <dt>Disponibilité</dt>
+                    <dd>Prêt à expédier</dd>
+
+                    <dt>Livraison</dt>
+                    <dd>Internationale</dd>
+                </dl>
+            </div>
+        </div>
+    </section>
+
+    <section class="factoryPresentation">
+
+        <video class="videoPresentationFactory" controls>
+        <source src="./video/videoPresentationUsine.mp4" type="video/mp4">
+        <track 
+            src="./video/sous-titre.vtt" 
+            kind="subtitles" 
+            srclang="fr" 
+            label="Français" 
+            default>
+        Votre navigateur ne supporte pas la balise vidéo.
+        </video>
+
+        <div class="DescriptionFactoryPresentation">
+            <div class="titleDescriptionFactory">
+                <h2>Découvrez notre usine</h2>
+                <h3>Réalisation 100% française</h3>
+            </div>
+            <p>Chez <strong>RESIDUE_</strong>, nous croyons que la qualité naît de la proximité. C'est pourquoi nous avons choisi de 
+                confier notre production à un atelier à taille humaine situé en France. Loin des cadences industrielles, 
+                chaque pièce est façonnée avec soin par des artisans passionnés, garantissant des finitions irréprochables et 
+                un respect total du produit.</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footerSection">
+        <div class="footerGrid">
+            <div class="brandCol">
+                <h2>RESIDUE_®</h2>
+                <p>Paris — Lisbonne<br>Est. 2024</p>
+            </div>
+            <div class="linkCol">
+                <h3>A propos</h3>
+                <ul><li><a href="./apropos.html">A propos</a></li>
+                    <li><a href="./pageArticle.html#definitions">Définitions</a></li></ul>
+            </div>
+            <div class="linkCol">
+                <h3>Contact</h3>
+                <ul><li><a href="./contact.html">Contact</a></li></ul>
+            </div>
+            <div class="linkCol">
+                <h3>Drops</h3>
+                <div><a href="./pageArticle.html">Voir notre nouveau KNIT</a></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

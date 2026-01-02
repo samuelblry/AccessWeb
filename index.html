@@ -3,20 +3,210 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RESIDUE</title>
+    <title>RESIDUE_</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="#" alt="..." id="logo">
-        <nav id="...">
-            <ul>
-                <li><a href="#">Acceuil</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">Qui sommes nous ?</a></li>
-            </ul>
-        </nav>
+
+    <div class="topBanner">
+        <div class="scrollingText">
+            <span>Retrouve le nouveau drop dès maintenant !</span> • <span>Edition Limitée !</span> • 
+        </div>
+        <div class="scrollingText">
+            <span>Retrouve le nouveau drop dès maintenant !</span> • <span>Edition Limitée !</span> • 
+        </div>
+        <div class="scrollingText">
+            <span>Retrouve le nouveau drop dès maintenant !</span> • <span>Edition Limitée !</span> • 
+        </div>
+    </div>
+
+    <nav id="navBar" class="navBar">
+        <div class="navBarPrincipal" id="navBarPrincipal">
+            <div class="navContent">
+
+            <div class="desktopLinks">
+                <a href="./error.html" id="btnBoutiqueNav">Boutique</a>
+                <a href="./error.html" id="btnBrandNav">Collections</a>
+                <a href="./contact.html" id="btnContactNav">Contact</a>
+            </div>
+
+            <div class="mainLogo">
+                <a href="./index.html">
+                    RESIDUE_<span class="tm">®</span>
+                </a>
+            </div>
+
+            <div class="rightIcons">
+                <a href="./apropos.html" id="btnAPropos">A propos</a>
+                <a href="./error.html" id="btnCompte">Compte</a>
+            </div>
+        </div>
+        </div>
+        <div class="megaMenuShop" id="megaMenuShop">
+            <div class="principalCategory">
+                <a href="./error.html"><strong>Tout les articles</strong></a>
+                <a href="./error.html"><strong>Nouveautés</strong></a>
+                <a href="./error.html"><strong>Meilleurs ventes</strong></a>
+            </div>
+            <div class="clothingCategory">
+                <a href="./error.html"><strong>Voir tout</strong></a>
+                <a href="./error.html">Knitwear</a>
+                <a href="./error.html">Hoodies</a>
+                <a href="./error.html">T-shirts</a>
+                <a href="./error.html">Pantalons</a>
+            </div>
+            <div class="accessoryCategory">
+                <a href="./error.html"><strong>Voir tout</strong></a>
+                <a href="./error.html">Ceinture</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="heroSection">
+        <div class="heroBgContainer">
+            <img src="./img/bg.jpg" class="heroImg" alt="Image de fond de la section">
+        </div>
+        <div class="heroContent">
+            <h1 class="heroTitle">RESIDUE_</h1>
+            <p class="heroSubtitle">no waste, just taste.</p>
+            <a href="./pageArticle.html" class="btnHeroShowNewArticle" aria-label="Ouvre la page des derniers ajouts">Voir les derniers ajouts</a>
+        </div>
     </header>
 
+    <section id="shop" class="shopSection">
 
+        <!-- Nouveautés -->
+
+        <div class="articleNew">
+            <div class="shopHeader">
+            <div>
+                <span class="smallTitle">Nouveautés</span>
+                <h2 class="bigTitle">Derniers ajouts : KNIT limité</h2>
+            </div>
+            <a href="./error.html" class="seeAllLink">Tout voir <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+        </div>
+
+        <div class="productsGrid">
+            <div class="productCard">
+                <div class="cardImage">
+                    <a href="./pageArticle.html">
+                        <span class="tagRed">Bestseller</span>
+                        <img src="./img/knit.jpg" class="imgFront" alt="Knit 'The last duel' posé a plat de face">
+                        <img src="./img/knitPorte.jpg" class="imgBack" alt="Knit 'The last duel' porté par une homme de face">
+                    </a>
+                </div>
+                <div class="cardInfo">
+                    <div><h3 class="articleName">THE LAST DUEL KNIT</h3><span class="articleDescription">100% cotton</span></div>
+                    <span class="articlePrice">85€</span>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="separationCategoryArticle"></div>
+
+        <!-- Best Steller -->
+
+        <div class="articleBestSteller">
+            <div class="shopHeader">
+            <div>
+                <span class="smallTitle">Les meilleurs ventes</span>
+                <h2 class="bigTitle">Best steller</h2>
+            </div>
+            <a href="./error.html" class="seeAllLink">Tout voir <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+        </div>
+
+        <div class="productsGrid">
+            <div class="productCard">
+                <div class="cardImage">
+                    <span class="tagRed">Bestseller</span>
+                    <a href="./pageArticle.html">
+                        <img src="./img/knit.jpg" class="imgFront" alt="Knit 'The last duel' posé a plat de face">
+                        <img src="./img/knitPorte.jpg" class="imgBack" alt="Knit 'The last duel' porté par une homme de face">
+                    </a>
+                </div>
+                <div class="cardInfo">
+                    <div><h3 class="articleName">THE LAST DUEL KNIT</h3><span class="articleDescription">100% cotton</span></div>
+                    <span class="articlePrice">85€</span>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <div class="CategoryMenu">
+            <a href="./error.html" class="categoryItem">
+                <div class="categoryImage">
+                    <img src="./img/knitPorte.jpg" alt="Knits">
+                </div>
+                <span class="categoryTitle">KNITS</span>
+            </a>
+
+            <a href="./error.html" class="categoryItem">
+                <div class="categoryImage">
+                <img src="./img/hoodieZipPorte.jpg" alt="Hoodies">
+                </div>
+                <span class="categoryTitle">HOODIES</span>
+            </a>
+
+            <a href="./error.html" class="categoryItem">
+                <div class="categoryImage">
+                    <img src="./img/tshirtPorte.jpg" alt="T-shirts">
+                </div>
+                <span class="categoryTitle">T-SHIRTS</span>
+            </a>
+
+            <a href="./error.html" class="categoryItem">
+                <div class="categoryImage">
+                    <img src="./img/pantPorte.jpg" alt="Pantalons">
+                </div>
+                <span class="categoryTitle">PANTALONS</span>
+            </a>
+
+            <a href="./error.html" class="categoryItem">
+                <div class="categoryImage">
+                    <img src="./img/ceinturePorte.jpg" alt="Accessoires">
+                </div>
+                <span class="categoryTitle">ACCESSOIRES</span>
+            </a>
+    </div>
+
+    <section id="manifesto" class="textSection">
+        <div class="textContent">
+            <div class="textLeft">
+                <h2 class="mainHeading">allez voir notre nouveau<br><span class="redWord">knit</span><br>en édition limitée !</h2>
+                <a href="./pageArticle.html" class="btnDrop" aria-label="Ouvre la page du drop">Voir le drop ici !</a>
+                <p class="paragraph">Heavy materials  |  Oversize  |  Boxy fit  |  Embroidery logo  |  100% COTTON  |  Main color : BLACK  |
+                     Ready to ship  |  Worldwide shipping</p>
+            </div>
+        </div>
+        <img src="./img/brand/imgSocialMedia3.png" class="backgroundSocialMedia" alt="Image de fond">
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footerSection">
+        <div class="footerGrid">
+            <div class="brandCol">
+                <h2>RESIDUE_®</h2>
+                <p>Paris — Lisbonne<br>Est. 2024</p>
+            </div>
+            <div class="linkCol">
+                <h3>A propos</h3>
+                <ul><li><a href="./apropos.html">A propos</a></li>
+                    <li><a href="./pageArticle.html#definitions">Définitions</a></li></ul>
+            </div>
+            <div class="linkCol">
+                <h3>Contact</h3>
+                <ul><li><a href="./contact.html">Contact</a></li></ul>
+            </div>
+            <div class="linkCol">
+                <h3>Drops</h3>
+                <div><a href="./pageArticle.html">Voir notre nouveau KNIT</a></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
