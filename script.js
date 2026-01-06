@@ -124,10 +124,10 @@ document.addEventListener('DOMContentLoaded', () => {
     
     if (imgCarousel && prevBtn && nextBtn) { 
         const imagesData = [
-        { src: "./img/knit.jpg", alt: "Knit 'The last duel' vu de face et posé" },
-        { src: "./img/knitDetailBroderie.jpg", alt: "Knit 'The last duel' détail broderie" },
-        { src: "./img/knitPorte.jpg", alt: "Knit 'The last duel' vue de face et porté" },
-        { src: "./img/knitPorteDos.jpg", alt: "Knit 'The last duel' vue de dos et porté" }
+        { src: "./img/knit.webp", alt: "Knit 'The last duel' vu de face et posé" },
+        { src: "./img/knitDetailBroderie.webp", alt: "Knit 'The last duel' détail broderie" },
+        { src: "./img/knitPorte.webp", alt: "Knit 'The last duel' vue de face et porté" },
+        { src: "./img/knitPorteDos.webp", alt: "Knit 'The last duel' vue de dos et porté" }
     ]
     let indexCarousel = 0
 
