@@ -67,10 +67,10 @@
     <!-- MAIN PRODUCT SECTION -->
     
     <section class="articlePresentation">
-        <div class="articlePresentationImg">
-            <button class="previousImgArticlePresentation" onclick="previousImgCarousel()" aria-label="Image précédente">&lt;</button>
-            <img id="ImgCarousel" src="./img/knit.jpg" alt="Knit 'The last duel'">
-            <button class="nextImgArticlePresentation" onclick="nextImgCarousel()" aria-label="Image suivante">&gt;</button>
+        <div class="articlePresentationImg" aria-live="polite" aria-atomic="true">
+            <button id="prevBtn" class="previousImgArticlePresentation" aria-label="Image précédente">&lt;</button>
+            <img id="ImgCarousel" src="./img/knit.jpg" alt="Knit 'The last duel' vu de face et posé">
+            <button id="nextBtn" class="nextImgArticlePresentation" aria-label="Image suivante">&gt;</button>
         </div>
 
         <div class="articlePresentationDescription">
@@ -145,7 +145,7 @@
     <footer class="footerSection">
         <div class="footerGrid">
             <div class="brandCol">
-                <h2>RESIDUE_®</h2>
+                <h2><a href="./index.html">RESIDUE_®</a></h2>
                 <p>Paris — Lisbonne<br>Est. 2024</p>
             </div>
             <div class="linkCol">
