@@ -22,5 +22,9 @@ Le thème choisi est **RESIDUE_**, une marque de vêtements streetwear au style 
 * **Lighthouse :** Score > 90 en Accessibilité et Bonnes Pratiques.
 * **WAVE :** Aucune erreur de contraste critique.
 
+## 📷 Présentation
+
+![](access-web.gif)
+
 ## 👤 Auteur
 Projet réalisé par Samuel BOUHNIK-LOURY.
